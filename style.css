@@ -1,0 +1,107 @@
+body {
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100vh;
+    display:grid;
+    place-items:center;
+    background: linear-gradient(
+        120deg, #d95454, #db4040);
+    font-family:'Poppins', sans-serif;
+    color:#fff;
+}
+
+.form{
+    padding:20px 20px;
+    width:400px;
+    background:red;
+    height:300px;
+    background: #353535;
+    border-radius:10px;
+    box-shadow: 0px 2px 20px rgba(0,0,0,.5);
+    margin-top:0px;
+}
+
+.username{
+    height:0px;
+    color:black;
+    background:#535353;
+    border-radius:2px;
+    border:0px solid #000;
+    outline:none;
+    transition:.75s ease;
+    color:#fff;
+    width:100%;
+    font-family:'Poppins', sans-serif;
+    
+}
+
+.password{
+    height:0px;
+    background:#535353;
+    border:0px solid #000;
+    outline:none;
+    transition:1s ease;
+    margin-top:0px;
+    color:#fff;
+    width:100%;
+    border-radius:2px;
+    font-family:'Poppins', sans-serif;
+}
+
+
+.labelu{
+    transition:.75s ease;
+    background:transparent ;
+    font-size:15px;
+    cursor:pointer ;
+    
+}
+
+.labelp{
+    transition:.75s ease;
+    background:transparent ;
+    font-size:15px;
+    margin-top:40px;
+    cursor:pointer ;
+}
+
+input::placeholder{
+    color:transparent ;
+    
+}
+
+
+.u::placeholder{
+    color: #202020;
+    /margin-left:5px;/
+}
+
+.uu::placeholder{
+    color: #202020;
+}
+
+.btn{
+    width:100%;
+    height:44px;
+    background: linear-gradient(
+        120deg, #d95454, #db4040);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    border-radius:5px;
+    margin-top:10px;
+    box-shadow: 0px 2px 100px rgba(0,0,0,.5);
+}
+
+
+footer{
+    width:100%;
+  
+    color:#fff;
+    text-align:center;
+    font-size:15px;
+    font-weight:500;
+    margin-top:-10px;
+}
